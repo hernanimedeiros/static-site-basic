@@ -1,0 +1,111 @@
+/*--------------------------------------------------------------
+# Import
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+
+/*--------------------------------------------------------------
+# General html tags
+--------------------------------------------------------------*/
+html {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  scroll-behavior: smooth;
+}
+
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+@-ms-viewport {
+width: device-width;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #272829;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: 2px solid whitesmoke;
+  width:128px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.content-layout {
+  max-width:100%;
+}
+
+.custom-margin {
+  /* Height */
+  height: 33vh;
+  display: none;
+}
+
+.just-desktop {
+  display:none;
+}
+
+.just-tablet {
+  display:none;
+}
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+.text-whitesmoke {
+  color:whitesmoke;
+}
